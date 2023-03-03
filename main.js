@@ -1,5 +1,5 @@
 canvas=document.getElementById('myCanvas');
-ctx=canvas.getContext("2D");
+ctx=canvas.getContext("2d");
 rover_width=100;
 rover_height= 90;
 rover_x=10;
@@ -12,7 +12,7 @@ rover_image="rover.png";
 function add(){
     background_imgTag= new Image();
     background_imgTag.onload= uploadbackground;
-    background_img.src= background_image;
+    background_imgTag.src= background_image;
     
     rover_imgTag= new Image();
     rover_imgTag.onload= uploadrover;
